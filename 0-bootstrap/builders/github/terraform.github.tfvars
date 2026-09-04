@@ -57,12 +57,12 @@ default_region = "us-central1"
    ---------------------------------------- */
 #  Un-comment github_bootstrap and its outputs if you want to use GitHub Actions instead of Cloud Build
 gh_repos = {
-    owner        = "YOUR-GITHUB-USER-OR-ORGANIZATION",
-    bootstrap    = "YOUR-BOOTSTRAP-REPOSITORY",
-    organization = "YOUR-ORGANIZATION-REPOSITORY",
-    environments = "YOUR-ENVIRONMENTS-REPOSITORY",
-    networks     = "YOUR-NETWORKS-REPOSITORY",
-    projects     = "YOUR-PROJECTS-REPOSITORY",
+  owner        = "YOUR-GITHUB-USER-OR-ORGANIZATION",
+  bootstrap    = "YOUR-BOOTSTRAP-REPOSITORY",
+  organization = "YOUR-ORGANIZATION-REPOSITORY",
+  environments = "YOUR-ENVIRONMENTS-REPOSITORY",
+  networks     = "YOUR-NETWORKS-REPOSITORY",
+  projects     = "YOUR-PROJECTS-REPOSITORY",
 }
 #
 #  to prevent saving the `gh_token` in plain text in this file,
